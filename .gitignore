@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# build outputs: rebuild with HeyBuddy.spec and HeyBuddy.iss (installers go on GitHub Releases)
+build/
+dist/
+installer/
+
+# personal data from running the app from source before it moved to %APPDATA%
+tasks.json
+settings.json
+*.tmp
+
+# local editor / agent settings
+.claude/settings.local.json
+.qodo/
